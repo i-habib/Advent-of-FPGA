@@ -19,3 +19,6 @@ $$x \pmod{100} = x - 100 \cdot \left\lfloor \frac{x}{100} \right\rfloor$$
  We can approximate 1/100 by 20972 >> 21 (logic for this in code comments), and from there implementation is easy.
 
 <br>
+
+# Harcaml experience
+This was my first time using an FPGA lagnauge. It is definetely more frusturating to type, but that is a given, and I definetely see the merit in so much customizability.
