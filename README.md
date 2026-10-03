@@ -2,8 +2,8 @@
 # AOC Challenge: Day 1, P1
 <br>
 
-# Generalic Logic
-### Relatively straightforward (see) python.py
+# General logic
+### Relatively straightforward (see python.py)
  Basically just bruteforce raw points assuming "stacking" across the numberline
  Then take it mod 100 to restore to range [0, 99]
  Keep a rolling track of number of times it crosses 0
@@ -20,8 +20,8 @@ $$x \pmod{100} = x - 100 \cdot \left\lfloor \frac{x}{100} \right\rfloor$$
 
 <br>
 
-# Harcaml experience
-This was my first time using an FPGA lagnauge. It is definetely more frusturating to type, but that is a given, and I definetely see the merit in so much customizability.
+# Hardcaml experience
+This was my first time using an FPGA language. It is definitely more frustrating to type, but that is a given, and I definitely see the merit in so much customizability.
 
 
 
@@ -32,7 +32,6 @@ This was my first time using an FPGA lagnauge. It is definetely more frusturatin
 **Directory Layout**
 ```text
 .
-├── input01.txt       # Puzzle input data
 ├── src/
 │   ├── day01.ml      # Hardcaml circuit logic (RTL generation)
 │   └── day01.mli     # Interface definition
@@ -44,7 +43,7 @@ This was my first time using an FPGA lagnauge. It is definetely more frusturatin
 **Execution Instructions**
 
 1.  **Input Configuration:**
-    Ensure `input01.txt` is located in the project root.
+    Save your own puzzle input as `input01.txt` in the project root. Advent of Code asks that inputs not be shared, so it is not in the repo.
 
 
 2.  **Compilation:**
